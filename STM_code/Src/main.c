@@ -554,7 +554,8 @@ void StartDefaultTask(void const * argument)
 	  uint8_t read_value;
 	  read_value=gyro_read(ACC_XOH,&huart4,&hspi2); //this is the actual test function that should send back
 	  intprint8b(&huart4,read_value);
-	  HAL_GPIO_TogglePin(GPIOD,LED1_Pin);
+	  led_toggle(3);
+	  led_write(2,1);
 	  osDelay(100); //20ms  repeating function
   }
 }
