@@ -6,9 +6,9 @@
 C_SRCS += \
 ../Src/debug.c \
 ../Src/freertos.c \
-../Src/gyro_8b.c \
 ../Src/main.c \
 ../Src/memory.c \
+../Src/mems.c \
 ../Src/stm32f4xx_hal_msp.c \
 ../Src/stm32f4xx_hal_timebase_TIM.c \
 ../Src/stm32f4xx_it.c \
@@ -17,9 +17,9 @@ C_SRCS += \
 OBJS += \
 ./Src/debug.o \
 ./Src/freertos.o \
-./Src/gyro_8b.o \
 ./Src/main.o \
 ./Src/memory.o \
+./Src/mems.o \
 ./Src/stm32f4xx_hal_msp.o \
 ./Src/stm32f4xx_hal_timebase_TIM.o \
 ./Src/stm32f4xx_it.o \
@@ -28,9 +28,9 @@ OBJS += \
 C_DEPS += \
 ./Src/debug.d \
 ./Src/freertos.d \
-./Src/gyro_8b.d \
 ./Src/main.d \
 ./Src/memory.d \
+./Src/mems.d \
 ./Src/stm32f4xx_hal_msp.d \
 ./Src/stm32f4xx_hal_timebase_TIM.d \
 ./Src/stm32f4xx_it.d \

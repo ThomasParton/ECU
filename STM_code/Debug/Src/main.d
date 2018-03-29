@@ -1,5 +1,5 @@
 Src/main.o: ../Src/main.c \
- C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Inc/gyro_8b.h \
+ C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Inc/mems.h \
  C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Inc/stm32f4xx_hal_conf.h \
  C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Inc/main.h \
@@ -50,7 +50,7 @@ Src/main.o: ../Src/main.c \
  C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 
-C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Inc/gyro_8b.h:
+C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Inc/mems.h:
 
 C:/Users/thomas/Documents/School/2018/thesis/software/Github/ecu_thomas/ECU/STM_code/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 

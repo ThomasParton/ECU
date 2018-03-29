@@ -9,11 +9,10 @@
 #define DEBUG_H_
 
 #include "stm32f4xx_hal.h"
-void debugPrint(UART_HandleTypeDef *huart_ptr, char _out[]);
-void debugPrintln(UART_HandleTypeDef *huart_ptr, char _out[]);
-void debugReceive(UART_HandleTypeDef *huart_ptr);
-void intprint8b(UART_HandleTypeDef *huart_ptr, uint8_t variable);
-void intprint16b(UART_HandleTypeDef *huart_ptr, uint16_t variable);
+void unsign_print(UART_HandleTypeDef *huart_ptr, uint8_t var);
+void signed_print(UART_HandleTypeDef *huart_ptr, int16_t var);
+void float_print(UART_HandleTypeDef *huart_ptr, float var);
+void char_Print(UART_HandleTypeDef *huart_ptr, char _out[]);
 void led_write(uint8_t number, uint8_t enable);
 void led_toggle(uint8_t number);
 #endif /* DEBUG_H_ */
